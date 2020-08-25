@@ -19,7 +19,8 @@ connection and turn it on remotely.
 There are no plans to use this to take pictures or video record at the
 moment, but maybe I could incorporate those features in the future
 ___
-Try the client [app](#rn-app) using 
+# Try it
+Try the camera app client using 
 [Expo snack](https://snack.expo.io/@nastytakito/taco-remote-camera)
 
 # Installation
@@ -28,10 +29,10 @@ Try the client [app](#rn-app) using
 3. Run `npm install`
 
 # Running the application
-There are two ways to run the app (somewhat the same but different)
+There are two ways to run the app
 - `npm run dev`: Runs only next.js application 
 - `npm run electron`: Runs both next.js app and WebSocket server 
-inside an electron app
+inside electron 
 
 next.js runs on default port (3000) and WebSocket server runs on 
 port 3001
